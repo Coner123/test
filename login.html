@@ -1,0 +1,21 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>会员登录</title>
+</head>
+<body>
+    <h2>会员登录</h2>
+    <form action="login.php" method="POST">
+        <label for="username">用户名:</label><br>
+        <input type="text" id="username" name="username" required><br>
+        <label for="password">密码:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="登录">
+    </form>
+    <br>
+    <button onclick="window.location.href='register.html'">注册</button> <!-- 将注册改为按钮 -->
+</body>
+</html>
